@@ -1,0 +1,27 @@
+.image {
+    height: 596px;
+    width: 100%;
+  }
+  
+  .image .Headerimg {
+    height: 596px;
+    left: 0;
+    object-fit: cover;
+    overflow: show;
+    top: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .image {
+      height: auto;
+      width: 100%;
+    }
+  
+    .image .Headerimg {
+      height: auto;
+      width: 100%;
+      position: relative;
+    }
+  }
+  
